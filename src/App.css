@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+html {
+    box-sizing:border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    background-image: url("https://ec.europa.eu/research-and-innovation/sites/default/files/styles/w1108/public/hm/field/image/clouds-mf.jpg?itok=2gPAQKnH");
+    width: 50%;
+    border: 3px solid blue;
+    box-shadow: 2px 2px #638cce;
+    text-align: center;
+    margin: 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form {
+    margin: 5px;
+    padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.form input {
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather {
+    border: 3px solid #54575b;
+    background-color: #5d697a;
 }
