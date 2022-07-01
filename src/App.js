@@ -3,7 +3,7 @@ import React from 'react';
 import Heading from './components/heading';
 import Form from './components/form';
 import Forecast from './components/forecast';
-const api_key = "8c2b1eb186162ed971d29c7a3c72816a";
+const api_key = "YOUR_API_KEY";
 
 class App extends React.Component {
   state = {
